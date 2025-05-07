@@ -13,6 +13,8 @@ A Python class for launching video URLs in VLC or PotPlayer using custom URI sch
 
 ## Example Usage
 ```py
+from app import Player
+
 player = Player()
 
 player.potplayer('https://example.com/video.mp4')
